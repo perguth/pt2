@@ -14,6 +14,7 @@ app.use(require('./stores/file'))
 
 app.route('/', require('./views/add-file'))
 app.route('/send-file', require('./views/send-file'))
+app.route('/receive-file', require('./views/receive-file'))
 app.route('/*', require('./views/404'))
 
 module.exports = app.mount('body')

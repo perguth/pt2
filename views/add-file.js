@@ -12,6 +12,8 @@ function view (state, emit) {
       <p>Hi there! In order to transfer a file please select it using this button:</p>
 
       <input onchange=${onChange} type=file>
+
+      <p>Or you want to receive a file? Click here: <a href=/receive-file>Receive file</a></p>
     </body>`
 
   function onChange (e) {
